@@ -1,0 +1,107 @@
+@charset "utf-8";
+html,body{
+    height: 100%;
+}
+body{
+    position: relative;
+    font-family: "Microsoft YaHei","SimSun";
+    font-size: 12px;
+    color: rgb(127,127,127);
+}
+.common{
+    position: absolute;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    line-height: 20px;
+}
+section{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+section .year{
+    width: 90px;
+    margin-left: -45px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+section .month{
+    width: 60px;
+    margin-left: 50px;
+}
+section .month span{
+    position: absolute;
+    width: 60px;
+}
+section .month span:first-child{
+    font-weight: bold;
+    color: black;
+}
+section .date{
+    width: 60px;
+    margin-left: 100px;
+}
+section .date span{
+    position: absolute;
+    width: 60px;
+}
+section .date span:first-child{
+    font-weight: bold;
+    color: black;
+}
+section .day{
+    width: 80px;
+    margin-left: 160px;
+}
+section .day span{
+    position: absolute;
+    width: 80px;
+}
+section .day span:first-child{
+    font-weight: bold;
+    color: black;
+}
+section .hour{
+    width: 80px;
+    margin-left: 210px;
+}
+section .hour span{
+    position: absolute;
+    width: 80px;
+}
+section .hour span:first-child{
+    font-weight: bold;
+    color: black;
+}
+section .minute{
+    width: 80px;
+    margin-left: 260px;
+}
+section .minute span{
+    position: absolute;
+    width: 80px;
+}
+section .minute span:first-child{
+    font-weight: bold;
+    color: black;
+}
+section .second{
+    width: 80px;
+    margin-left: 320px;
+}
+section .second span{
+    position: absolute;
+    width: 80px;
+}
+section .second span:first-child{
+    font-weight: bold;
+    color: black;
+}
